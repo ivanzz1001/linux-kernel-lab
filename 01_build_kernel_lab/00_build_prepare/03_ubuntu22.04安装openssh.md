@@ -2,7 +2,9 @@
 
 >ps: 参考https://blog.csdn.net/DT_FlagshipStore/article/details/126051811
 
-1) **安装openssh-server**
+---
+
+1） **安装openssh-server**
 ```bash
 # apt install openssh-server
 ```

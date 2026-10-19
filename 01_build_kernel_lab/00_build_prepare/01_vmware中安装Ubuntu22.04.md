@@ -10,7 +10,7 @@
 
 找到如图所示位置，选择Ubuntu 22.04.3(destop-amd64)系统
 
-![ubuntu-download](https://raw.githubusercontent.com/ivanzz1001/linux-kernel-learning/master/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/1-%E7%BC%96%E8%AF%91Linux%E5%86%85%E6%A0%B8/%E6%90%AD%E5%BB%BA%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/image/aliyun-ubuntu-download.webp)
+![ubuntu-download](https://raw.githubusercontent.com/ivanzz1001/linux-kernel-lab/master/01_build_kernel_lab/00_build_prepare/assets/aliyun-ubuntu-download.webp)
 
 ![ubuntu-download](https://raw.githubusercontent.com/ivanzz1001/linux-kernel-learning/master/%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/1-%E7%BC%96%E8%AF%91Linux%E5%86%85%E6%A0%B8/%E6%90%AD%E5%BB%BA%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/image/aliyun-ubuntu-2204.webp)
 

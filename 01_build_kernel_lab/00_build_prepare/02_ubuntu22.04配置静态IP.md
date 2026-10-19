@@ -5,8 +5,9 @@ ubuntu从17.10开始，已放弃在/etc/network/interfaces里固定IP的配置�
 
 >参考: [ubuntu18.04修改IP为静态IP并能够上网](https://blog.csdn.net/IT_SoftEngineer/article/details/112794427)
 
+---
 
-### 1. 找出当前网关
+## 1. 找出当前网关
 
 <pre>
 # apt install net-tools
@@ -18,7 +19,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.180.0   0.0.0.0         255.255.255.0   U     100    0        0 ens33
 </pre>
 
-### 2. 获取到当前的IP地址及网卡名称
+## 2. 获取到当前的IP地址及网卡名称
 
 ```
 # ifconfig
@@ -41,7 +42,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-### 3. 修改/etc/netplan下相关文件
+## 3. 修改/etc/netplan下相关文件
 
 这里我们修改/etc/netplan/01-network-manager-all.yaml文件如下:
 ```
@@ -60,7 +61,7 @@ network:
         search: []
 ```
 
-### 4. 配置静态IP生效
+## 4. 配置静态IP生效
 
 执行如下命令:
 ```

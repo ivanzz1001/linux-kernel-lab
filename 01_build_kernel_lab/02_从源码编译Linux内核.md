@@ -135,7 +135,7 @@ Device Drivers  --->
 ```
 按上述修改之后记得保存。
 
-说明: 关于这里为什么要选择内核支持ramdisk驱动，以后会进行探讨
+>**说明**: 关于这里为什么要选择内核支持ramdisk驱动，以后会进行探讨
 
 #### 3.3.4 建议调试配置
 
@@ -155,9 +155,9 @@ CONFIG_KPROBES=y
 
 下面逐个介绍如何开启:
 
-1. **开启CONFIG_DEBUG_INFO**
+1. 开启CONFIG_DEBUG_INFO
 
-2. **开启CONFIG_GDB_SCRIPTS**
+2. 开启CONFIG_GDB_SCRIPTS
 
 
 

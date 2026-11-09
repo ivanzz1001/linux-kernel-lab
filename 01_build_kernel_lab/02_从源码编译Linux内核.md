@@ -94,8 +94,6 @@ Base Board Information
 构建步骤概览:
 
 ```bash
-# pwd
- /workspace/kernel-lab/linux/linux-7.3
 # mkdir -p ../../build
 # make O=../../build x86_64_defconfig
 # make O=../../build menuconfig

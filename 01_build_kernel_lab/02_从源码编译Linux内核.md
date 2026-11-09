@@ -94,12 +94,12 @@ Base Board Information
 构建步骤概览:
 
 ```bash
-$ pwd
+# pwd
  /workspace/kernel-lab/linux/linux-7.3
-$ mkdir -p ../../build
-$ make O=../../build x86_64_defconfig
-$ make O=../../build menuconfig
-$ make O=../../build -j"$(nproc)"
+# mkdir -p ../../build
+# make O=../../build x86_64_defconfig
+# make O=../../build menuconfig
+# make O=../../build -j"$(nproc)"
 ```
 
 #### 3.2.1 指定CPU arch

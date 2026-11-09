@@ -95,9 +95,9 @@ Base Board Information
 
 ```bash
 $ pwd
-/workspace/kernel-lab/linux/linux-7.3
+ /workspace/kernel-lab/linux/linux-7.3
 $ mkdir -p ../../build
-$  make O=../../build x86_64_defconfig
+$ make O=../../build x86_64_defconfig
 $ make O=../../build menuconfig
 $ make O=../../build -j"$(nproc)"
 ```

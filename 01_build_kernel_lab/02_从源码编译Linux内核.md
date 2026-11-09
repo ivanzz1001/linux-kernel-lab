@@ -12,7 +12,7 @@
 
 ## 2. 下载指定版本Linux内核源代码
 
-Linux内核源代码可以到https://mirrors.edge.kernel.org/pub/linux/kernel/下载，这里我们下载当前最新版本：
+Linux内核源代码可以到 https://mirrors.edge.kernel.org/pub/linux/kernel/ 下载，这里我们下载当前最新版本：
 
 ```bash
 # ls
